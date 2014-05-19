@@ -1,7 +1,7 @@
 var should = require('should');
 var assert = require('assert');
 var Mode = require('stat-mode');
-var stat = require('../lib');
+var stat = require('../index');
 
 var testdir = require('path').join(__dirname, 'files');
 var nodir = require('path').join(__dirname, 'hello-world');
