@@ -1,0 +1,31 @@
+{
+  "name": "node-folder-stat",
+  "version": "1.0.0",
+  "description": "Run fs.stat on every file in a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshTheGeek/node-folder-stat.git"
+  },
+  "keywords": [
+    "fs",
+    "fs-stat",
+    "folder-stat"
+  ],
+  "author": "Josh Oldenburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshTheGeek/node-folder-stat/issues"
+  },
+  "homepage": "https://github.com/JoshTheGeek/node-folder-stat",
+  "devDependencies": {
+    "should": "^3.3.1",
+    "stat-mode": "^0.2.0"
+  },
+  "dependencies": {
+    "batch": "^0.5.0"
+  }
+}
