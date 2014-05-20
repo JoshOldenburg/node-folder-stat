@@ -1,4 +1,4 @@
-node-folder-stat
+node-folder-stat [![Build Status](https://travis-ci.org/JoshTheGeek/node-folder-stat.svg?branch=master)](https://travis-ci.org/JoshTheGeek/node-folder-stat)
 ================
 
 Run `fs.stat` on every file in a directory.
