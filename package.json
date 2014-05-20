@@ -4,7 +4,8 @@
   "description": "Run fs.stat on every file in a directory",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "jscoverage lib lib-cov && STAT_COV=1 mocha -R html-cov > coverage.html"
   },
   "repository": {
     "type": "git",
