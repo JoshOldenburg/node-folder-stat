@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/JoshTheGeek/node-folder-stat",
   "devDependencies": {
+    "mocha": "^2.4.5",
     "should": "^3.3.1",
     "stat-mode": "^0.2.0"
   },
